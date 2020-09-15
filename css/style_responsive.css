@@ -1,0 +1,261 @@
+
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-----------------------------------------------------------------------*/
+.my_frist_heading{
+	font-size:70px;
+}
+.my_animation{
+	font-size:35px;
+}
+.about_heading_mySelf{
+	font-size:40px
+}
+.pb-3{
+	font-size:35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.my_frist_heading{
+	font-size:65px;
+}
+.my_animation{
+	font-size:30px;
+}
+.about_heading_mySelf{
+	font-size:40px
+}
+.pb-3{
+	font-size:30px;
+}
+.social i{
+	font-size:35px;
+	padding:9px;
+	border:2px solid #fff;
+	color:#fff;
+	border-radius:100%;
+	margin-right:10px;
+}
+#section_i_do{
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/3.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	padding:2px;
+	padding-top:14%;
+	padding-bottom:5%;
+}
+.contact{
+	padding-top:10%;
+}
+
+
+
+
+
+
+
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+--------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+.my_frist_heading{
+	font-size:40px;
+}	
+.my_animation{
+	font-size:20px;
+	margin-left:15px;
+}
+.ah-words-wrapper{
+	margin-left:5px;
+}
+.about_heading_mySelf{
+	font-size:28px
+}
+.pb-3{
+	font-size:25px;
+}
+
+.heading_my_name{
+	margin-top:18%;
+	letter-spacing:2px;
+	font-weight:bold;
+	color:#fff;
+	cursor:pointer;
+}
+.social i{
+	font-size:25px;
+	padding:8px;
+	border:2px solid #fff;
+	color:#fff;
+	border-radius:100%;
+	margin-right:9px;
+}
+.about_heading_mySelf{
+	margin-top:18%;
+}
+#section_i_do{
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/3.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	padding:2px;
+	padding-top:18%;
+	padding-bottom:5%;
+}
+.contact{
+	padding-top:16%;
+}
+
+
+
+
+
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------  */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.my_frist_heading{
+	font-size:40px;
+}	
+.my_animation{
+	font-size:18px;
+	margin-left:8px;
+}
+
+.about_heading_mySelf{
+	font-size:20px
+}
+.pb-3{
+	font-size:20px;
+}
+
+.heading_my_name{
+	margin-top:20%;
+	letter-spacing:2px;
+	font-weight:bold;
+	color:#fff;
+	cursor:pointer;
+}
+.social i{
+	font-size:25px;
+	padding:9px;
+	border:2px solid #fff;
+	color:#fff;
+	border-radius:100%;
+	margin-right:8px;
+}
+.about_heading_mySelf{
+	margin-top:20%;
+}
+#section_i_do{
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/3.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	padding:2px;
+	padding-top:18%;
+	padding-bottom:5%;
+}
+.contact{
+	padding-top:18%;
+}
+
+
+
+
+
+
+
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+
+.my_frist_heading{
+	font-size:35px;
+}	
+.pb-3{
+	font-size:25px;
+}
+
+.heading_my_name{
+	margin-top:21%;
+	letter-spacing:2px;
+	font-weight:bold;
+	color:#fff;
+	cursor:pointer;
+}
+.social i{
+	font-size:25px;
+	padding:9px;
+	border:2px solid #fff;
+	color:#fff;
+	border-radius:100%;
+	margin-right:8px;
+}
+.about_heading_mySelf{
+	margin-top:21%;
+}	
+#section_i_do{
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/3.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	padding:2px;
+	padding-top:21%;
+	padding-bottom:5%;
+}	
+.contact{
+	padding-top:20%;
+}	
+	
+	
+	
+}
